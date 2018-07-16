@@ -1,5 +1,4 @@
 class Turn
-    attr_accessor :answer
     def initialize(player)
         @player = player
         @question = MathQuestion.new
